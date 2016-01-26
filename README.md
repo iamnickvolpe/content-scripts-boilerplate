@@ -3,9 +3,11 @@
 
 ## Instructions
   - Download this repo into a folder.
+  - Launch the Chrome browser.
   - Navigate to [chrome://extensions/](chrome://extensions/).
   - Click the "Load unpacked extension..." button on the top left of the screen.
-  - Choose the folder you just created.
+  - Choose the folder you just created and click OK.
+  - Whenever you make a change to the extension, go back to this page and click the "reload" button on this extension.
 
 ## Important Files
 ### manifest.json
