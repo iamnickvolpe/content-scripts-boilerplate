@@ -1,0 +1,22 @@
+{
+  "name": "Content Script Injection",
+  "version": "1.0",
+  "author": "Nick Volpe",
+  "manifest_version": 2,
+  "description": "Inject some JS or CSS into a webpage.",
+  "homepage_url": "http://www.twitter.com/iamnickvolpe/",
+  "icons": { 
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png" 
+  },
+  "content_scripts": 
+  [
+    {
+      "matches": [ "http://*/*", "https://*/*"],
+      "js": ["jquery.min.js","initialize.js","js.js"],
+      "css": ["css.css"]
+    }
+  ],
+  "web_accessible_resources":["resources/*"]
+}

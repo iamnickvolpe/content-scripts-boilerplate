@@ -1,0 +1,4 @@
+/* Sample code to turn the body blue */
+html.custom-css body {
+  background-color: blue;
+}
