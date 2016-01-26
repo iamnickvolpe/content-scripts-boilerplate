@@ -23,6 +23,6 @@ The css injected into the page.
 Allows you to use the simple jQuery library we all know and love.
 
 ### initialize.js
-Allows you add listeners to elements added to the page after it's already been loaded.
+Allows you add listeners to elements that are added dynamically onto the page.
 
 built by [@iamnickvolpe](http://twitter.com/iamnickvolpe)
