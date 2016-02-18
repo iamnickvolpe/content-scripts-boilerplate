@@ -1,5 +1,3 @@
-var $ = require('jQuery');
-
 //jquery.initialize plugin by Adam Pietrasiak ( https://github.com/AdamPietrasiak/jquery.initialize )
 
 ;(function($) {
