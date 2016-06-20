@@ -14,16 +14,13 @@
 ### manifest.json
 The manifest.json file describes all the specifics of your chrome extension.
 
-### js.js
+### code/js.js
 The javascript injected into the page.
 
-### css.css
+### code/css.css
 The css injected into the page.
 
-### jquery.min.js
+### resources/jquery.min.js
 Allows you to use the simple jQuery library we all know and love.
-
-### initialize.js
-Allows you add listeners to elements that are added dynamically onto the page.
 
 built by [@iamnickvolpe](http://twitter.com/iamnickvolpe)

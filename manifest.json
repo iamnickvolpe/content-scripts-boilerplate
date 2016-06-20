@@ -6,16 +6,16 @@
   "description": "Inject some JS or CSS into a webpage.",
   "homepage_url": "http://www.twitter.com/iamnickvolpe/",
   "icons": { 
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png" 
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png" 
   },
   "content_scripts": 
   [
     {
-      "matches": [ "http://*/*", "https://*/*"],
-      "js": ["jquery.min.js","initialize.js","js.js"],
-      "css": ["css.css"]
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["resources/jquery.min.js","code/js.js"],
+      "css": ["code/css.css"]
     }
   ],
   "web_accessible_resources":["resources/*"]
